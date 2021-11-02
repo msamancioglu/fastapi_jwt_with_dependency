@@ -1,1 +1,1 @@
-Fastapi app + user authentication with JWT token + dependencies
+Fastapi Rest app + user authentication with JWT token + dependencies
