@@ -1,1 +1,1 @@
-"# fastapi_jwt_with_dependency2" 
+Fastapi Rest app + user authentication with JWT token + dependencies
