@@ -62,7 +62,7 @@ def get_current_user(token: str = Depends(get_athentication_header)):
             detail="no auhentication code provided"
         )
     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-    username: str = payload.get("user")
+    username: str = payload.get("sub")
     return username
 
 #depends on get_current_user
